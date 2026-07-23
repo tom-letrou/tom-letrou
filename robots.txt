@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tom-letrou.github.io/tom-letrou/sitemap.xml
+Sitemap: https://tom-letrou.github.io /tom-letrou/sitemap.xml
