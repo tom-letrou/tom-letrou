@@ -26,5 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in agricultural and environmental economics at Paris-Saclay Applied Economics. My research focuses on the sustainability of European agricultural and livestock systems, and on how environmental limits can be integrated into economic analysis and policy design.  
+I am a PhD candidate in agricultural and environmental economics at Paris-Saclay Applied Economics. My research focuses on the sustainability of European agricultural and livestock systems, and on how environmental limits can be integrated into economic analysis and policy design.
+
 My work combines quantitative modelling, environmental accounting and scenario analysis to study the links between food production, land use, emissions, nutrient flows, biodiversity pressures and resource use. More broadly, I aim to contribute to a better understanding of the transformations needed to make European food systems compatible with ecological boundaries while accounting for economic and policy constraints.
+
+My PhD contributes to the [STEP UP project](https://horizon-stepup.eu/), in particular through work connecting the definition of a Safe Operating Space for European livestock systems with economic modelling of agricultural transition pathways.
