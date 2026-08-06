@@ -13,11 +13,4 @@ My thesis contributes to the [STEP UP project](https://horizon-stepup.eu/), espe
 
 A central modelling component of this work is MAFSEU, a partial-equilibrium model of European agricultural and food systems. A first version of the model was used in the publication ["The European Green Deal improves the sustainability of food systems but has uneven economic impacts on consumers and farmers"](https://doi.org/10.1038/s43247-023-01019-6). As part of my PhD, I contribute to developing the model further, with a particular focus on livestock systems and their environmental, economic and policy dimensions.
 
-At this stage, my work is organized around a few connected themes:
-
-- quantitative modelling of agricultural and food systems;
-- environmental accounting for land use, greenhouse gas emissions, nutrient flows, biodiversity pressures and resource use;
-- scenario analysis for transitions in European livestock and food systems;
-- integration of ecological boundaries into economic and policy assessment.
-
 This page will evolve as my thesis progresses and as research outputs become available.
