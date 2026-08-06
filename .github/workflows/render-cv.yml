@@ -1,14 +1,7 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # This site uses a manually maintained PDF CV in assets/pdf/.
+  # Keep RenderCV available on demand, but do not run it automatically.
   workflow_call:
   workflow_dispatch:
 permissions:
