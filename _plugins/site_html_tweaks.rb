@@ -8,6 +8,7 @@ Jekyll::Hooks.register :pages, :post_render do |page|
 
   baseurl = page.site.config["baseurl"].to_s.sub(%r{/$}, "")
   favicon_path = "#{baseurl}/assets/img/favicon.svg"
+  custom_css_path = "#{baseurl}/assets/css/site-custom.css"
 
   unless output.include?(favicon_path)
     favicon_tags = <<~HTML
@@ -15,6 +16,10 @@ Jekyll::Hooks.register :pages, :post_render do |page|
       <link rel="shortcut icon" href="#{favicon_path}">
     HTML
     output.sub!("</head>", "#{favicon_tags}</head>")
+  end
+
+  unless output.include?(custom_css_path)
+    output.sub!("</head>", %(<link rel="stylesheet" href="#{custom_css_path}">\n</head>))
   end
 
   output.gsub!(

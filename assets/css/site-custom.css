@@ -1,0 +1,39 @@
+html,
+body {
+  background: #eef4ef;
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(238, 244, 239, 0.96) 0%, rgba(249, 251, 247, 0.98) 42%, rgba(235, 242, 237, 0.96) 100%),
+    #eef4ef;
+}
+
+a,
+a:hover {
+  color: #2f6f56;
+}
+
+.navbar,
+footer.fixed-bottom {
+  background-color: rgba(248, 251, 247, 0.92) !important;
+  border-color: rgba(89, 116, 98, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(89, 116, 98, 0.16);
+}
+
+footer.fixed-bottom {
+  border-top: 1px solid rgba(89, 116, 98, 0.14);
+}
+
+.post-title,
+.navbar-brand {
+  color: #26372e;
+}
+
+.profile img {
+  border: 1px solid rgba(89, 116, 98, 0.2);
+}
