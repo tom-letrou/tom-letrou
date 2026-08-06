@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:
+title: Tom Letrou
 first_name: Tom
 middle_name:
 last_name: Letrou
 
 contact_note: >
-  Feel free to contact me by email.
+  Personal academic website.
 
 description: >
   Personal academic website of Tom Letrou, PhD candidate in economics at Paris-Saclay Applied Economics / INRAE.
 
 keywords: economics, agricultural economics, food systems, INRAE, PhD
 lang: en
-icon: 📊
+icon:
 
 url: "https://tom-letrou.github.io"
 baseurl: "/tom-letrou/"
@@ -31,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -61,7 +61,7 @@ al_folio:
     cv:
       enabled: true
     distill:
-      enabled: true
+      enabled: false
   compat:
     bootstrap:
       enabled: false
@@ -84,10 +84,10 @@ al_folio:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -121,17 +121,17 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Tom Letrou
+blog_description: Personal academic website
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -158,17 +158,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -185,15 +175,15 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
   teachings:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -232,6 +222,40 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/plugins.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _bibliography/
+  - _books/
+  - _news/
+  - _posts/
+  - _projects/
+  - _teachings/
+  - assets/img/book_covers/
+  - assets/img/publication_preview/
+  - assets/img/1.jpg
+  - assets/img/2.jpg
+  - assets/img/3.jpg
+  - assets/img/4.jpg
+  - assets/img/5.jpg
+  - assets/img/6.jpg
+  - assets/img/7.jpg
+  - assets/img/8.jpg
+  - assets/img/9.jpg
+  - assets/img/10.jpg
+  - assets/img/11.jpg
+  - assets/img/12.jpg
+  - assets/img/prof_pic.jpg
+  - assets/img/prof_pic_color.png
+  - assets/img/rhino.png
+  - assets/img/template_error.png
+  - assets/pdf/example_pdf.pdf
   - purgecss.config.js
   - README.md
   - readme_preview/
