@@ -1,8 +1,8 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
-description: Research interests and doctoral work.
+description: 
 nav: true
 nav_order: 2
 ---
