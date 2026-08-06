@@ -1,7 +1,7 @@
 cv:
   name: Tom Letrou
   label: PhD candidate in agricultural and environmental economics
-  email: ""
+  email: tom.letrou@inrae.fr
   location: France
   image: ""
   summary: >
@@ -10,7 +10,9 @@ cv:
     systems, and on the integration of environmental limits into economic
     analysis and policy design.
 
-  social_networks: []
+  social_networks:
+    - network: LinkedIn
+      username: tom-letrou-aa24531a5
 
   sections:
     Current Position:

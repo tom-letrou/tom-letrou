@@ -1,8 +1,4 @@
-# Add public contact links here when they are ready.
-# Examples supported by the theme include:
-# email: firstname.lastname@example.org
-# github_username: username
-# linkedin_username: username
-# scholar_userid: Google Scholar ID
-# orcid_id: ORCID ID
+email: tom.letrou@inrae.fr
+linkedin_username: tom-letrou-aa24531a5
+cv_pdf: /assets/pdf/tom_letrou_cv.pdf
 rss_icon: false

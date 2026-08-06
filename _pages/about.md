@@ -2,20 +2,20 @@
 layout: about
 title: home
 permalink: /
-nav: true
+nav: false
 nav_order: 1
 subtitle: PhD candidate in agricultural and environmental economics
 
 profile:
   align: right
-  image:
+  image: tom_letrou.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Paris-Saclay Applied Economics</p>
     <p>INRAE</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
