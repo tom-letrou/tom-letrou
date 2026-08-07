@@ -1,10 +1,10 @@
 ---
 layout: about
-title: Home
+title: home
 permalink: /
 nav: false
 nav_order: 1
-subtitle: PhD student in agricultural and environmental economics in Paris-Saclay Applied Economics
+subtitle: PhD candidate in agricultural and environmental economics
 
 profile:
   align: right
